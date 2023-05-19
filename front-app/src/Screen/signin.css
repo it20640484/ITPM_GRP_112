@@ -1,0 +1,92 @@
+.back{
+    background-image:  url('https://res.cloudinary.com/iplus/image/upload/v1678459363/test/new_tszsox.png');
+  height: 100vh;
+  margin-top: -70px;
+  font-size:50px;
+  background-repeat:no-repeat; 
+}
+.ul {
+	list-style-type: none;
+  }
+  
+  .li {
+	display: inline-block;
+  }
+  
+  .input[type="checkbox"][id^="cb"] {
+	display: none;
+  }
+  
+  .label1 {
+	border: 1px solid #ffffff00;
+	padding: 10px;
+	display: block;
+	position: relative;
+	margin: 10px;
+	cursor: pointer;
+  }
+  
+  .label1:before {
+	background-color: white;
+	color: black;
+	content: " ";
+	display: block;
+	border-radius: 50%;
+	position: absolute;
+	top: -5px;
+	right: -5px;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	line-height: 28px;
+	transition-duration: 0.4s;
+	transform: scale(0);
+  }
+  
+  .label1 img {
+	height: 80px;
+	width: 80px;
+	border: 0.6px solid #bcbbc000;
+	transition-duration: 0.2s;
+	transform-origin: 50% 50%;
+	border-radius: 8px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+  }
+  
+  :checked + .label1::after {
+	border-color: #f5b8001f;
+  }
+  
+  :checked + .label1:before {
+	content: "✓";
+	background-color: #dedcd7;
+	transform: scale(1);
+  }
+  
+  :checked + .label1 img {
+	transform: scale(0.9);
+	z-index: -1;
+	border: 0.5px solid #ffffff1f;
+	background-color: #e3e3e31f;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    width: 100%;
+}
