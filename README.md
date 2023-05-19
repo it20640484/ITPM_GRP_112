@@ -16,4 +16,3 @@ http://localhost:3000/Mainview
 Login: (email) - admin@gmail.com        
 (password)-1234567890
 
-image.png
