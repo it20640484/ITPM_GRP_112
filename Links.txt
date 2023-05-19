@@ -1,0 +1,11 @@
+
+
+  Admin:
+	http://localhost:3000/admin
+
+
+
+
+   User : 
+	http://localhost:3000/Mainview
+	Login: (email) - admin@gmail.com        (password)-1234567890
