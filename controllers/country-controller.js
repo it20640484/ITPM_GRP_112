@@ -1,7 +1,11 @@
 const CountryModal = require("../models/country-model");
 const { cloudinary } = require("../utils/cloudinary");
 
+<<<<<<< Updated upstream:controllers/country-controller.js
 
+=======
+ 
+>>>>>>> Stashed changes:backend/controllers/country-controller.js
 const mongoose = require("mongoose");
 
 //Fetch all Country
