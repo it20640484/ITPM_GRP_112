@@ -51,7 +51,7 @@ export default function AddQuetion(){
         <div className="container my-5 ">
                <h1> Type here your question </h1>        
            <Form className="rounded container my-5 mb-2 bg-dark text-white" style={{border:"1px solid black"}} onSubmit={sendData}>
-               
+                
                <br/>
                <Form.Group className="mb-3" controlId="formCusId">
                    <Form.Label >Customer ID</Form.Label>
