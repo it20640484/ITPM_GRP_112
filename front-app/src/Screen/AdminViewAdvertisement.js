@@ -65,7 +65,7 @@ function AdminViewAdvertisement() {
 
     return (
         <div>
-            <Header/>
+            <Header />
             <div className="container my-3">
                 <div><h1> Advertisements </h1></div>
 
@@ -97,7 +97,7 @@ function AdminViewAdvertisement() {
                                         <th scope="col">Email</th>
                                         <th scope="col">From</th>
                                         <th scope="col">To</th>
-                                        
+
                                         <th></th>
 
                                     </tr>
@@ -111,9 +111,9 @@ function AdminViewAdvertisement() {
                                             <td>{item.mngr_name}</td>
                                             <td>{item.contact_no}</td>
                                             <td>{item.mgr_email}</td>
-                                            <td>{item.from.toString().substring(0,10)}</td>
-                                            <td>{item.to.toString().substring(0,10)}</td>
-                            
+                                            <td>{item.from.toString().substring(0, 10)}</td>
+                                            <td>{item.to.toString().substring(0, 10)}</td>
+
                                             <td>
 
                                                 <Button type="button" size="sm" variant="danger" onClick={(e) => deleteAdvertisement(item._id)}> Remove </Button>
