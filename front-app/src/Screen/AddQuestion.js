@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import axios from "axios";
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import { useLocation, useNavigate } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./Header";
 import Carasoul from "./Carasoul";
@@ -12,6 +13,7 @@ export default function AddQuetion(){
     const [cus_name , setName] = useState("");
     const [cus_contact_no , setCusContactNo] = useState("");
     const [question , setQuestion] = useState("");
+    const navigate = useNavigate();
     
 
     function sendData(event){
@@ -30,6 +32,7 @@ export default function AddQuetion(){
         
         axios.post("http://localhost:8070/qna/addQuestion",newQuestion).then(()=>{
             alert("Question submitted successfully!!!")
+            navigate("/viewQuestion");
             window.location.reload(false);
            
 
