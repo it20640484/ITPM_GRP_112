@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import axios from "axios";
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./Header";
 import Carasoul from "./Carasoul";
@@ -15,7 +15,7 @@ export default function AddQuetion(){
     const [question , setQuestion] = useState("");
     const navigate = useNavigate();
     
-    
+
 
     function sendData(event){
 
