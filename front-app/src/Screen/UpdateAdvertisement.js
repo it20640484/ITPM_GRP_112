@@ -71,7 +71,7 @@ export default function UpdateAdvertisement() {
     console.log(newAdvertisement);
   }
 
-  
+
   return (
     <div>
       <Carasoul/>
@@ -92,6 +92,7 @@ export default function UpdateAdvertisement() {
                 setJbCategory(e.target.value);
               }} />
           </Form.Group>
+          
           <Form.Group className="mb-3" controlId="formAgName">
             <Form.Label>Agency Name</Form.Label>
             <Form.Control type="text"
