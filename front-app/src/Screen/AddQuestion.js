@@ -15,6 +15,7 @@ export default function AddQuetion(){
     const [question , setQuestion] = useState("");
     const navigate = useNavigate();
     
+    
 
     function sendData(event){
 
