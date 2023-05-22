@@ -1,5 +1,11 @@
-# ITPM_GRP_112 | SHAC SL
-ITPM_GRP_112_Peace_Justice_&amp;_Strong_Institution
+# ITPM_GRP_112 | SHAC SL - Job Integration Management System
+# SDG Goal - Peace, Justice and Strong Institution
+     Name	                   Registration No
+Bandara K.M.A.P.	             IT 20 6404 84
+Jayangani W.H.                 IT 20 6434 54
+Yapa Y.A.D.C.H.                IT 20 0835 64
+Dissanayaka D.M.S.M.     	     IT 20 1455 52
+
 
 http://localhost:3000/
 
