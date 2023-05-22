@@ -18,6 +18,14 @@
 ### While there are many other types of scams happening related to migration it was identified that all these scams have become possible because of one reason that is, unavailability of reliable information and guidance from local authorities or information which is available is not easily accessible by citizens with low computer literacy or having poor user experience developed on available information systems.
 ### Our goal in this research is to identify issues of this information unavailability and make it easily available for anyone with below-average computer literacy. 
 
+## Technologies
+### Backend - Nodejs
+### Frontend - React
+### Database - Mongodb
+### IDE -vscode
+
+
+
 http://localhost:3000/
 
 npm i // Install 
