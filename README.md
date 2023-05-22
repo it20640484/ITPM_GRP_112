@@ -19,6 +19,7 @@
 ### Our goal in this research is to identify issues of this information unavailability and make it easily available for anyone with below-average computer literacy. 
 
 ## Technologies
+-- MERN Stack --
 ### Backend - Nodejs
 ### Frontend - React
 ### Database - Mongodb
