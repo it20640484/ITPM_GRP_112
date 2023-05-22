@@ -25,6 +25,10 @@
 ### Database - Mongodb
 ### IDE -vscode
 
+| other tools
+* SonarQube
+* Selanium
+* Azure Boads
 
 
 http://localhost:3000/
