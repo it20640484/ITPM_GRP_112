@@ -28,7 +28,7 @@ export default function UpdateAdvertisement() {
   const { prevMgrEmail } = state;
   const { prevFrom } = state;
   const { prevTo } = state;
-  
+
 
   const [job_category, setJbCategory] = useState(prevJobCategory);
   const [ag_name, setAgName] = useState(prevAgName);
@@ -38,7 +38,7 @@ export default function UpdateAdvertisement() {
   const [mgr_email, setMgEmail] = useState(prevMgrEmail);
   const [from, setDateFr] = useState(prevFrom);
   const [to, setDateT] = useState(prevTo);
-  
+
 
 
   function sendData(e) {
@@ -55,7 +55,7 @@ export default function UpdateAdvertisement() {
       mgr_email,
       from,
       to,
-      
+
     };
 
     axios
@@ -74,9 +74,9 @@ export default function UpdateAdvertisement() {
 
   return (
     <div>
-      <Carasoul/>
-            
-      <Header/>
+      <Carasoul />
+
+      <Header />
       <div className="container my-5">
         <h1> Update the Advertisement </h1>
         <Form className="rounded container my-5 p-3 mb-2 bg-dark text-white" style={{ border: "1px solid black" }} onSubmit={sendData}>
@@ -92,7 +92,7 @@ export default function UpdateAdvertisement() {
                 setJbCategory(e.target.value);
               }} />
           </Form.Group>
-          
+
           <Form.Group className="mb-3" controlId="formAgName">
             <Form.Label>Agency Name</Form.Label>
             <Form.Control type="text"
@@ -177,7 +177,7 @@ export default function UpdateAdvertisement() {
             </Form.Group>
           </Form.Group>
 
-          
+
 
           <td>
             <Button variant="success" size="sm" type="submit">Update Advertisement</Button>
