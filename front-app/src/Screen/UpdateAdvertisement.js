@@ -71,6 +71,7 @@ export default function UpdateAdvertisement() {
     console.log(newAdvertisement);
   }
 
+  
   return (
     <div>
       <Carasoul/>
